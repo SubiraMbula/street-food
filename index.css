@@ -12,3 +12,12 @@ body {
     overflow: hidden;
     transform: translate(60%, -50%);
 }
+li {
+    display: inline-block;
+    text-decoration: none;
+    border: hidden;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    color: black;
+}
