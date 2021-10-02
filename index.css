@@ -90,17 +90,26 @@ nav {
    padding: 70px;
    border: 0% hidden;
  }
- #eat img:first-child{
+ #eat img{
      float: left;
+     height: 60%;
+     width: 65%;
  }
  #eat p{
      text-align: right;
      display: block;
+     font-size: 20px;
  }
  #eat h1{
      color: orange;
-     font-size: 20px;
+     font-size: 40px;
  }
- #menu span{
+ #menu h1:nth-child(2) {
      color: rgb(50, 189, 50);
+ }
+ #menu h1:first-child{
+     color: white;
+ }
+ #menu{
+     background-color: rgba(155, 216, 201, 0.89);
  }
