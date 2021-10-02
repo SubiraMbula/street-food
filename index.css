@@ -21,3 +21,30 @@ li {
     text-align: center;
     color: black;
 }
+.banner {
+    display: inline;
+    color: black;
+}
+.banner2{
+    display: inline;
+}
+h1{
+    display: inline;
+    color: green;
+}
+p {
+    display: block;
+    text-align: left;
+    font-size: 22px;
+    border: hidden;
+    padding: none;
+}
+.order {
+    background-color: greenyellow;
+    box-sizing: content-box;
+    height: 500px;
+    width: 150px;
+    max-width: 150px;
+    max-height: 50px;
+    font-size: 24px; 
+}
