@@ -25,10 +25,13 @@ li {
     display: inline;
     color: black;
     font-size: 18px;
+    justify-content: space-between;
 }
 .banner2{
     display: inline;
     font-size:18px;
+    color: black;
+    justify-content: space-between;
 }
 h1{
     display: inline;
@@ -49,4 +52,19 @@ p {
     max-width: 150px;
     max-height: 50px;
     font-size: 24px; 
+    border-top: 100%;
+    border-bottom: 100%;
+    border-left: 50%;
+    border-right: 50%;
 }
+.rotating-food img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -50px;
+    width: 100px;
+    height: 100px;
+    }
+nav {
+        justify-content: space-between;
+ }
