@@ -84,4 +84,10 @@ p {
 nav {
         justify-content: space-between;
  }
- 
+ #eat img:first-child{
+     float: left;
+ }
+ #eat p{
+     text-align: right;
+     display: block;
+ }
