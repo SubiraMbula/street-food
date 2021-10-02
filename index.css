@@ -113,3 +113,19 @@ nav {
  #menu{
      background-color: rgba(155, 216, 201, 0.89);
  }
+ .deals{
+     background-color: rgb(121, 207, 121);
+ }
+ .deals img:first-child{
+     float: left;
+     width: 20%;
+     height: 10%;
+ }
+ .deals img:nth-child(2){
+     float: left;
+     height: 25%;
+     width: 25%;
+ }
+ .deals img{
+     float: inline-start;
+ }
