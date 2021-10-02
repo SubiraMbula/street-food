@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(188, 202, 202);
-}
+    background-color: rgb(223, 240, 240);
+    border:hidden
+    }
 #curve {
-    background-color: rgb(154, 219, 90);
+    background-color: rgb(180, 236, 124);
     height: 1000px;
     width: 1000px;
     max-width: 1000px;
@@ -10,7 +11,7 @@ body {
     border-radius: 50%;
     position: absolute;
     overflow: hidden;
-    transform: translate(60%, -50%);
+    transform: translate(65%, -60%);
 }
 li {
     display: inline-block;
@@ -86,6 +87,8 @@ nav {
  }
  section{
    background-color: white;
+   padding: 70px;
+   border: 0% hidden;
  }
  #eat img:first-child{
      float: left;
