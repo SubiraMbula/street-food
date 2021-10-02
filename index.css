@@ -92,8 +92,9 @@ nav {
  }
  #eat img{
      float: left;
-     height: 60%;
-     width: 65%;
+     height: 45%;
+     width: 45%;
+     transform: translate(50% -40%);
  }
  #eat p{
      text-align: right;
@@ -104,28 +105,16 @@ nav {
      color: orange;
      font-size: 40px;
  }
- #menu h1:nth-child(2) {
-     color: rgb(50, 189, 50);
- }
- #menu h1:first-child{
-     color: white;
- }
- #menu{
-     background-color: rgba(155, 216, 201, 0.89);
- }
  .deals{
      background-color: rgb(121, 207, 121);
+     border: none;
+     padding: 5px;
  }
- .deals img:first-child{
+ .deals img{
      float: left;
      width: 20%;
      height: 10%;
  }
- .deals img:nth-child(2){
-     float: left;
-     height: 25%;
-     width: 25%;
- }
- .deals img{
-     float: inline-start;
+.deals p{
+     text-align: right;
  }
