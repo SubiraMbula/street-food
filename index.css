@@ -106,7 +106,7 @@ nav {
      font-size: 40px;
  }
  .deals{
-     background-color: rgb(121, 207, 121);
+     background-color: #C9ECB5;
      border: none;
      padding: 5px;
  }
@@ -120,7 +120,7 @@ nav {
  }
  #contact{
      text-align: center;
-     background-color: peachpuff;
+     background-color: #FFD77C;
  }
  #contact p{
      text-align: center;
