@@ -24,9 +24,11 @@ li {
 .banner {
     display: inline;
     color: black;
+    font-size: 20px;
 }
 .banner2{
     display: inline;
+    font-size: 20px;
 }
 h1{
     display: inline;
