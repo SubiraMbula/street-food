@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(223, 240, 240);
+    background-color:  #7c807a;
     border:hidden;
     font-type: poppins;
     }
@@ -14,25 +14,8 @@ body {
     overflow: hidden;
     transform: translate(65%, -60%);
 }
-li {
-    display: inline-block;
-    text-decoration: none;
-    border: hidden;
-    padding: 5px;
-    margin: auto;
-    text-align: center;
-    color: black;
-}
-.banner {
+nav{
     display: inline;
-    color: black;
-    font-size: 18px;
-    justify-content: space-between;
-}
-.banner2{
-    display: inline;
-    font-size:18px;
-    color: black;
     justify-content: space-between;
 }
 h1{
@@ -93,8 +76,8 @@ nav {
  }
  #eat img{
      float: left;
-     height: 45%;
-     width: 45%;
+     height: 35%;
+     width: 40%;
      transform: translate(50% -40%);
  }
  #eat p{
@@ -106,6 +89,21 @@ nav {
      color: orange;
      font-size: 40px;
  }
+ #menu {
+    background-color:#C9ECB5 ;
+ }
+#menu >h1{
+    text-align: center;
+}
+#menu >h1>span{
+    color: rgb(142, 207, 45);
+}
+#menu > .menu{
+display: inline-flex;
+justify-content: center;
+flex-wrap: wrap;
+width: 30%;
+}
  .deals{
      background-color: #C9ECB5;
      border: none;
